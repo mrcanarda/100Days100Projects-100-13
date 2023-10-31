@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  justify-items: center;
+  background-color: hsl(217, 19%, 24%);
+}
+
+.container {
+  background-color: hsl(217, 19%, 38%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25rem;
+  width: 50rem;
+  font-family: "Manrope", sans-serif;
+  margin-top: 25rem;
+  border-radius: 10px;
+}
